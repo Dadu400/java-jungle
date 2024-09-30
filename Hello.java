@@ -2,7 +2,11 @@
 class Hello {
 
     public static void main(String a[]) {
-        System.out.print("hello world");
+        int num1 = 3;
+        int num2 = 6;
+        int result = num1 + num2;
+
+        System.out.print(result);
     }
     
 }
