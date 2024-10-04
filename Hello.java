@@ -1,12 +1,14 @@
 
 class Hello {
 
-    public static void main(String a[]) {
-        int num1 = 3;
-        int num2 = 6;
-        int result = num1 + num2;
+    public static void main(String args[]) {
+        int a = 257;
+        byte k = (byte) a;
 
-        System.out.print(result);
+        float f = 5.6f;
+        int t = (int) f;
+
+        System.out.print(t);
     }
     
 }
