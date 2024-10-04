@@ -2,13 +2,16 @@
 class Hello {
 
     public static void main(String args[]) {
-        int a = 257;
-        byte k = (byte) a;
+        int x = 8;
+        int y = 7;
+        int z = 6;
 
-        float f = 5.6f;
-        int t = (int) f;
-
-        System.out.print(t);
+        if (x > y && x > z) {
+            System.out.println(x);
+        } else if (y > z)
+            System.out.println(y);
+        else
+            System.out.println(z);
     }
-    
+
 }
